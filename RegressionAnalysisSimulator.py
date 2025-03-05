@@ -564,3 +564,8 @@ elif geral == "Simple Linear Regression":
     except Exception as e:
         st.error(f"Error: {str(e)}")
         st.write("Please make sure the 'series_temporais.csv' file is available and contains the required columns.")        
+
+# Footer
+st.divider()
+st.caption("© 2025 Linear Regression Teaching Tool | Developed for educational purposes")
+st.caption("Prof. José Américo – Coppead")
