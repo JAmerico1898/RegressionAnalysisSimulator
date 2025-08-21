@@ -50,11 +50,11 @@ if geral == "Regressão Linear Múltipla":
 
     st.subheader("Pressupostos Principais:")
     st.write("""
-    1. **Linearidade**: A relação entre variáveis independentes e a variável dependente deve ser linear
-    2. **Independência**: Os resíduos devem ser independentes
-    3. **Normalidade**: Os resíduos devem ser normalmente distribuídos
-    4. **Homocedasticidade**: Os resíduos devem ter variância constante
-    5. **Ausência de Multicolinearidade**: As variáveis independentes não devem ser altamente correlacionadas entre si
+    1. **Linearidade**: Os parâmetros estimados por MQO devem ser lineares.
+    2. **Ausência de Multicolinearidade**: As variáveis independentes não devem ser altamente correlacionadas entre si.
+    3. **Exogeneidade ou Independência**: Os regressores (variáveis independentes) não são correlacionados com o termo de erro.
+    4. **Homocedasticidade**: Os resíduos devem ter variância constante.
+    5. **Independência dos erros**: Não há correlação entre os erros da regressão.
     """)
 
     # Carregar e preparar dados

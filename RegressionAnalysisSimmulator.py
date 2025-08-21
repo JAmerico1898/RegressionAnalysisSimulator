@@ -43,7 +43,7 @@ Onde:
 st.subheader("Principais Suposições:")
 st.write("""
 1. **Linearidade**: Os parâmetros estimados por MQO devem ser lineares.
-2. **Aleatoriedade**: Os dados utilizados devem ter sido aleatoriamente amostrados da população.
+2. **Ausência de Multicolinearidade**: As variáveis independentes não devem ser altamente correlacionadas entre si.
 3. **Exogeneidade ou Independência**: Os regressores (variáveis independentes) não são correlacionados com o termo de erro.
 4. **Homocedasticidade**: Os resíduos devem ter variância constante.
 5. **Independência dos erros**: Não há correlação entre os erros da regressão.
